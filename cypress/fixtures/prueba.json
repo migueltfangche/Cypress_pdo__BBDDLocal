@@ -1,0 +1,10 @@
+[
+    {
+      "nombres": "Prueba",
+      "apellidos": "Usuario",
+      "usuario": "testuser",
+      "email": "test@example.com",
+      "clave": "password123",
+      "repetir_clave": "password123"
+    }
+  ]
