@@ -10,7 +10,7 @@ describe('inicio de sesión', () => {
     });
   });
 
-  it('Visita página web inicio de sesión', () => {
+  it('Visita página web inicio de sesión y agrega usuarios', () => {
     midata.forEach((data) => {
       cy.log('Data cargada:', JSON.stringify(data));
       cy.visit('http://localhost/inventario-main/index.php?vista=login');
